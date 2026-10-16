@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #eae2dc;
+}
+
+.container {
+    max-width: 500px;
+    background-color:  #ffffff;
+    border: 1px solid #eae2dc;
+    box-shadow:  0 10px 30px rgba(0, 0, 0, 0.08);;
+    border-radius: 10px;
+    width: 800%;
+    height: 800PX;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.container h3{
+    margin-bottom: 50px;
+}
+
+.container h1{
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    color: #8b5e63;
+}
+
+.form-control {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 90%;
+    padding: 10px;
+}
+
+.btn-confirmar {
+    background-color: #8b5e63;;
+    color: #fff;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(139, 94, 99, 0.25);
+}
